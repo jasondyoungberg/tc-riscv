@@ -1,0 +1,12 @@
+[package]
+name = "tc-riscv"
+version = "0.1.0"
+edition = "2024"
+
+[profile.dev]
+opt-level = "s"
+
+[profile.release]
+opt-level = "s"
+strip = true
+lto = true
