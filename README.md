@@ -1,7 +1,7 @@
 # tc-riscv
 
 ## Usage
-- Install rust from (rustup.rs)[https://rustup.rs]
+- Install rust from https://rustup.rs/
 - Install riscv toolchain and binutils
     ```bash
     rustup target add riscv32i-unknown-none-elf
